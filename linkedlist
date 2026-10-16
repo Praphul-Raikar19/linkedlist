@@ -1,7 +1,4 @@
-```python
-# =========================================================
-# 1. SINGLY LINKED LIST (SLL)
-# =========================================================
+
 
 class SNode:
     def __init__(self, data):
@@ -13,7 +10,6 @@ class SinglyLinkedList:
     def __init__(self):
         self.head = None
 
-    # Calculate length
     def length(self):
         count = 0
         current = self.head
@@ -142,9 +138,7 @@ class SinglyLinkedList:
         print("None")
 
 
-# =========================================================
-# 2. DOUBLY LINKED LIST (DLL)
-# =========================================================
+
 
 class DNode:
     def __init__(self, data):
@@ -322,7 +316,7 @@ class CircularLinkedList:
         self.head = None
         self.tail = None
 
-    # Calculate length
+   
     def length(self):
         if self.head is None:
             return 0
@@ -490,9 +484,6 @@ class CircularLinkedList:
         print("(back to head)")
 
 
-# =========================================================
-# 4. TEST ALL THREE LINKED LISTS
-# =========================================================
 
 if __name__ == "__main__":
 
@@ -531,4 +522,4 @@ if __name__ == "__main__":
     print("Search Python:", cll.search("Python"))
     cll.reverse()
     cll.display()
-```
+
