@@ -301,9 +301,6 @@ class DoublyLinkedList:
         print("None")
 
 
-# =========================================================
-# 3. CIRCULAR LINKED LIST (CLL)
-# =========================================================
 
 class CNode:
     def __init__(self, data):
